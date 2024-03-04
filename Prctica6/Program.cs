@@ -10,7 +10,7 @@ namespace Prctica6
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите значения параметра x = ");
+            Console.WriteLine("Для значения х = { x}, F = { F}.");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = 2 * Math.Cos(x);
